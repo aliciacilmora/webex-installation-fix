@@ -1,7 +1,7 @@
 # Webex Installation Fix
 
 If you encounter the error while installing Webex:
-webex : Depends: libgl1-mesa-glx but it is not installable
+webex depends on libgl1-mesa-glx; however: Package libgl1-mesa-glx is not installed.
 
 
 You can fix it by installing the required package manually from an older version of Ubuntu.
